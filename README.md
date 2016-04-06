@@ -22,6 +22,8 @@ apiUrl - your web service URL.
 - Format for new Orcanos cloud is https://cloud.orcanos.com/[ACCOUNT_NAME]/qpackserv/qpackserv.asmx/QW_Add_Source_File
 - Local Installation - http://[YOUR_SERVER]/qpack/qpackserv/qpackserv.asmx/QW_Add_Source_File
 
+logFile - path for local log file
+
 ###Commit Changes 
 On commit, you need to put the defect ID as follows: "This is a test comment for {Defect-1067} Fix"
 QPack web service will
