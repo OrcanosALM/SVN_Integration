@@ -4,16 +4,16 @@
 //////////////////////////////////////////////////
 
 //QPack Credentials and web service URL
-var UserPassword = '12345678';
-var UserName = 'alex.johnson';
-var apiUrl = 'https://cloud.orcanos.com/qpack/qpackserv/qpackserv.asmx/QW_Add_Source_File';
+var UserPassword = 'password';
+var UserName = 'user';
+var apiUrl = 'put your API URL, such as https://cloud.orcanos.com/customer_name/qpackserv/qpackserv.asmx/QW_Add_Source_File';
 
 //General settings
 var debug = 0;	// Set to 0 for disable popup debug windows
 var log = 1;	// Set to 0 for disable logging into the file
 var commitStatus = 1;
 
-//Log file
+//Log file - folder must exist on your folder
 var logFile = "c:/qpack/scc/OrcanosSVNhook.log";
 
 if (log)
